@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {StyleSheet, Text, View, TouchableOpacity, Image} from 'react-native';
 
-export default function App() {
+function App() {
 
   const [counter, setCounter] = useState(0);
 
@@ -26,6 +26,8 @@ export default function App() {
       </View>
   );
 }
+
+export default App;
 
 const styles = StyleSheet.create({
   container: {
